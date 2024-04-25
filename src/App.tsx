@@ -20,7 +20,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Routes>
+      <Routes forceRefresh={true} hashType="noslash">
         <Route path="/" element={<Home />} />
         <Route path="/individual" element={<HeroScrollDemo />} />
         <Route path="/Work Experience" element={<TracingBeamDemo />} />
