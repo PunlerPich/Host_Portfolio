@@ -26,10 +26,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <App />
           <Routes forceRefresh={true} hashType="noslash">
             <Route path="/" element={<Home />} />
-            <Route path="/individual" element={<HeroScrollDemo />} />
-            <Route path="/Work Experience" element={<TracingBeamDemo />} />
-            <Route path="/Contact" element={<Contact />} />
-            <Route path="/Education" element={<Education />} />
+            <Route path="individual" element={<HeroScrollDemo />} />
+            <Route path="Work Experience" element={<TracingBeamDemo />} />
+            <Route path="/Contact/" element={<Contact />} />
+            <Route path="/Education/" element={<Education />} />
             <Route path="/web" element={<StickyScrollRevealDemo />} />
             <Route path="/technology" element={<CardHoverEffectDemo />} />
             <Route path="/Bt_Project" element={<Bt_Project />} />
