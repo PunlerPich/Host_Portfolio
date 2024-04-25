@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Link, Image } from "@nextui-org/react";
-
+import { Image } from "@nextui-org/react";
+import { Link } from "react-router-dom";
 const transition = {
   type: "spring",
   mass: 0.5,
@@ -84,7 +84,7 @@ export const ProductItem = ({
 }) => {
   return (
     <>
-      <Link href={href} className="flex space-x-2">
+      <Link to={href} className="flex space-x-2">
         <Image
           src={src}
           width={140}
