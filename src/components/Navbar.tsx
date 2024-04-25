@@ -8,11 +8,15 @@ import { Tweet } from "../assets/Tweet";
 
 import { Git } from "../assets/Git";
 import { Discord } from "../assets/Discord";
-
+import { Link } from "react-router-dom";
 export default function NavbarDemo() {
   return (
     <div className="relative w-full flex items-center justify-center">
       <Navbar className="top-2" />
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/Education">About</Link>
+      </nav>
     </div>
   );
 }
@@ -33,7 +37,7 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Background ">
           <div className="flex flex-col space-y-4 text-sm font-bold">
-            <HoveredLink href="/Work Experience">Work Experience</HoveredLink>
+            <HoveredLink href="/WorkExperience">Work Experience</HoveredLink>
             <HoveredLink href="/Education">Education</HoveredLink>
 
             <HoveredLink href="/technology">Technology</HoveredLink>

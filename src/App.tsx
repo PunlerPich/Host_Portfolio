@@ -18,10 +18,11 @@ export default function App() {
   return (
     <>
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/individual" element={<HeroScrollDemo />} />
-        <Route path="/Work Experience" element={<TracingBeamDemo />} />
+        <Route path="/WorkExperience" element={<TracingBeamDemo />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Education" element={<Education />} />
         <Route path="/web" element={<StickyScrollRevealDemo />} />
@@ -31,6 +32,7 @@ export default function App() {
         <Route path="/Book_Club" element={<Book_Club />} />
         <Route path="/Real_Estest" element={<Real_Estest />} />
       </Routes>
+
       <ToastContainer />
     </>
   );
