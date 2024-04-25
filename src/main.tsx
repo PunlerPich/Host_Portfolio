@@ -4,7 +4,7 @@ import { NextUIProvider } from "@nextui-org/react";
 import App from "./App";
 import "./index.css";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import { TracingBeamDemo } from "./components/TracingBeamDemo";
 import { StickyScrollRevealDemo } from "./components/StickyScrollRevealDemo";
