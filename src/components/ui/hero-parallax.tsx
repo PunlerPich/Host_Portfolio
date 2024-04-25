@@ -7,8 +7,8 @@ import {
   useSpring,
   MotionValue,
 } from "framer-motion";
-import { Link, Image } from "@nextui-org/react";
-
+import { Image } from "@nextui-org/react";
+import { Link } from "react-router-dom";
 export const HeroParallax = ({
   products,
 }: {
@@ -134,9 +134,7 @@ export const ProductCard = ({
       }}
       key={product.title}
       className="group/product h-96 w-[30rem] relative flex-shrink-0">
-      <Link
-        href={product.link}
-        className="block group-hover/product:shadow-2xl ">
+      <Link to={product.link} className="block group-hover/product:shadow-2xl ">
         <Image
           src={product.thumbnail}
           height={800}

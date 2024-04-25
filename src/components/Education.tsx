@@ -62,7 +62,7 @@ export default function Education() {
           <Link
             isExternal
             showAnchorIcon
-            href="https://github.com/nextui-org/nextui">
+            href="https://www.beltei.edu.kh/biue/">
             BELTIE INTERNATINAL UNIVERSITY
           </Link>
         </CardFooter>
@@ -107,7 +107,7 @@ export default function Education() {
           <Link
             isExternal
             showAnchorIcon
-            href="https://github.com/nextui-org/nextui">
+            href="https://donboscokep.org/?fbclid=IwZXh0bgNhZW0CMTAAAR126dbwkG_4-UXpppZUCky9XNv9BlfvCjYIirlwQYA6Z_5ZIAFIu_vrJJk_aem_AX91M-aUOMdmxNPrTIDF4VV5fVMQhePDURUe69MNmA1gv6s2FISKUHG_Dl_0e-dnVWONejW_72OiM8n2Pui0ROna">
             DON BOSCO KEP
           </Link>
         </CardFooter>
